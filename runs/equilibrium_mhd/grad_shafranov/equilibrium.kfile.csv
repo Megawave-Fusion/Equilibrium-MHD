@@ -1,0 +1,3 @@
+source,index,major_r_m,z_m,value,sigma,unit
+pf_coil,1,2.5700000000000003,1.08,0.0,,MA
+pf_coil,2,2.5700000000000003,-1.08,0.0,,MA

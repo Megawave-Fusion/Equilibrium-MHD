@@ -1,0 +1,11 @@
+quantity,value,unit,description
+lcfs_point_count,238,1,number of extracted psi_norm=1 contour points
+topology,double-null,label,reduced topology classification
+primary_x_psi_norm_error,0.12921179150217132,1,proxy only; X point should lie near separatrix in high-fidelity solve
+primary_strike_psi_norm_error,1.9513202262011475e-05,1,strike point proximity to psi_norm=1
+inner_limiter_gap_m,-0.10521162699067976,m,limiter inner gap proxy
+outer_limiter_gap_m,-0.12989019122471024,m,limiter outer gap proxy
+top_limiter_gap_m,0.07612273560872795,m,limiter top gap proxy
+bottom_limiter_gap_m,0.08074077284688264,m,limiter bottom gap proxy
+min_wall_gap_m,0.0017654212797043438,m,minimum sampled LCFS-to-wall distance
+passive_model,static_prescribed_current_no_induction,label,"passive structures are static current/geometry inputs, not inductive eddy-current evolution"

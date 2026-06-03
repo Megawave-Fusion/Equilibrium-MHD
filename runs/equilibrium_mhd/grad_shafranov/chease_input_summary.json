@@ -1,0 +1,9 @@
+{
+  "schema": "xirong.chease_bridge.v1",
+  "n_profile": 64,
+  "major_radius_m": 1.85,
+  "b0_t": 3.0,
+  "plasma_current_ma": 0.75,
+  "cocos_index": 11,
+  "source": "03A reduced Grad-Shafranov equilibrium"
+}

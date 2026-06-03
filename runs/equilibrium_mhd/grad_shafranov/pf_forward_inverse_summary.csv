@@ -1,0 +1,10 @@
+quantity,value,description
+shape_control_mode,off,off/forward/inverse/forward-inverse
+semantics,none,FreeGS-like reduced PF control mode
+constraint_count,0,shape constraints included in response matrix
+controlled_coil_count,2,PF coils with control=true
+response_matrix_rank,0,linear response rank
+response_matrix_condition,0.0,0 means unavailable or rank deficient
+shape_rms_error,0.0,final weighted psi_norm RMS
+shape_max_error,0.0,final weighted psi_norm max error
+saturated_coil_count,0,coils at current limit

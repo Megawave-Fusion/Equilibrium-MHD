@@ -1,0 +1,7 @@
+[launcher] 2026年 6月 3日 星期三 14时09分05秒 CST
+[launcher] cwd=/Users/maxuecai/Downloads/核聚变回旋波加热
+[launcher] testing Tk interface with /Library/Frameworks/Python.framework/Versions/Current/bin/python3
+python /Library/Frameworks/Python.framework/Versions/3.14/bin/python3
+equilibrium mhd desktop import ok
+[launcher] starting GS equilibrium desktop with /Library/Frameworks/Python.framework/Versions/Current/bin/python3
+[launcher] desktop pid=16624

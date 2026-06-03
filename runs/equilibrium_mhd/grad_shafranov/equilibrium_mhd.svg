@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="760" viewBox="0 0 1180 760">
+<rect width="1180" height="760" fill="#f8fafc"/>
+<text x="36" y="48" font-size="24" font-family="Arial" font-weight="bold" fill="#121c23">MHD / Grad-Shafranov equilibrium</text>
+<text x="36" y="82" font-size="14" font-family="Arial" fill="#53656e">model=free-boundary-gs, B_axis=2.858 T, Ip=0.75 MA</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "device": "xirong-demo-4pf",
+  "limiter": {
+    "r_m": [2.38, 2.30, 2.05, 1.70, 1.36, 1.25, 1.36, 1.70, 2.05, 2.30],
+    "z_m": [0.00, 0.47, 0.78, 0.88, 0.63, 0.00, -0.63, -0.88, -0.78, -0.47]
+  },
+  "wall": {
+    "r_m": [2.50, 2.40, 2.10, 1.68, 1.23, 1.10, 1.23, 1.68, 2.10, 2.40],
+    "z_m": [0.00, 0.62, 0.98, 1.08, 0.76, 0.00, -0.76, -1.08, -0.98, -0.62]
+  },
+  "pf_coils": [
+    {"name": "PFU1", "r_m": 2.62, "z_m": 1.04, "current_ma": 0.20, "turns": 8, "control": true, "width_m": 0.10, "height_m": 0.16, "resistance_ohm": 0.0025},
+    {"name": "PFL1", "r_m": 2.62, "z_m": -1.04, "current_ma": 0.20, "turns": 8, "control": true, "width_m": 0.10, "height_m": 0.16, "resistance_ohm": 0.0025},
+    {"name": "PFU2", "r_m": 1.20, "z_m": 0.92, "current_ma": -0.08, "turns": 6, "control": true, "width_m": 0.08, "height_m": 0.12, "resistance_ohm": 0.0030},
+    {"name": "PFL2", "r_m": 1.20, "z_m": -0.92, "current_ma": -0.08, "turns": 6, "control": true, "width_m": 0.08, "height_m": 0.12, "resistance_ohm": 0.0030}
+  ],
+  "passive_structures": [
+    {"name": "vacuum_vessel_upper", "r_m": 1.85, "z_m": 1.14, "width_m": 1.18, "height_m": 0.04, "current_ma": 0.0, "turns": 1, "resistance_ohm": 0.0008},
+    {"name": "vacuum_vessel_lower", "r_m": 1.85, "z_m": -1.14, "width_m": 1.18, "height_m": 0.04, "current_ma": 0.0, "turns": 1, "resistance_ohm": 0.0008},
+    {"name": "outboard_shell", "r_m": 2.48, "z_m": 0.0, "width_m": 0.04, "height_m": 1.78, "current_ma": 0.0, "turns": 1, "resistance_ohm": 0.0012}
+  ]
+}

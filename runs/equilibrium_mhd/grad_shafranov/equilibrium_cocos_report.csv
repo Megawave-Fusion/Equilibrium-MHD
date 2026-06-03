@@ -1,0 +1,8 @@
+quantity,value,description
+cocos_index,11,COCOS-like convention tag used by local export
+transform_status,metadata_only,No external COCOS remap is applied in this reduced exporter
+psi_sign,1.0,Multiplier applied to exported poloidal flux sign metadata
+ip_sign,1.0,Plasma current sign metadata
+btor_sign,1.0,Toroidal field sign metadata
+q_sign_policy,q profile left positive; signs are recorded separately,Reduced convention report
+geqdsk_output,equilibrium.geqdsk,EFIT-style g-file emitted by this run

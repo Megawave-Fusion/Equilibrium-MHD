@@ -1,0 +1,13 @@
+quantity,value,unit
+shot,0,1
+time_ms,0.0,ms
+r_axis_m,2.0195422535211267,m
+z_axis_m,0.01385131578947374,m
+b_axis_t,2.858082620223596,T
+plasma_current_ma,0.75,MA
+beta_percent,2.2,%
+q_axis,1.05,1
+q_edge,4.0,1
+separatrix_topology,double-null,label
+reconstruction_chi2_reduced,0.0,1
+cocos_index,11,1

@@ -1,0 +1,24 @@
+{
+  "schema": "xirong.equilibrium_export.v1",
+  "cocos_index": 11,
+  "psi_sign": 1.0,
+  "ip_sign": 1.0,
+  "btor_sign": 1.0,
+  "formats": [
+    "chease",
+    "efit",
+    "helena",
+    "profiles"
+  ],
+  "files": {
+    "geqdsk": "equilibrium.geqdsk",
+    "profiles": "flux_surface_averages.csv",
+    "chease": "chease_profiles.csv",
+    "chease_summary": "chease_input_summary.json",
+    "helena": "helena_profiles.csv",
+    "helena_boundary": "helena_boundary.csv",
+    "afile": "equilibrium.afile.csv",
+    "kfile": "equilibrium.kfile.csv",
+    "mfile": "equilibrium.mfile.csv"
+  }
+}

@@ -1,0 +1,16 @@
+quantity,value,description
+nw,72,radial grid count
+nh,96,vertical grid count
+rdim,1.6049999999999998,R grid span m
+zdim,2.63175,Z grid span m
+rcentr,1.85,reference major radius m
+rleft,1.0475,left R coordinate m
+zmid,0.0,midplane Z m
+rmagx,2.0195422535211267,magnetic axis R m
+zmagx,0.01385131578947374,magnetic axis Z m
+simagx,0.0,axis psi Wb
+sibdry,0.21356382999694296,boundary psi Wb
+bcentr,3.0,central toroidal field T
+cpasma,750000.0,plasma current A
+nbbbs,238,boundary point count
+limitr,192,limiter point count

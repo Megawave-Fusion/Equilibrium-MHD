@@ -1,0 +1,9 @@
+quantity,value,z_or_aux,psi_or_aux,description
+topology,double-null,,,classified from X-point and strike-point signs
+x_point_count,4,,,candidate nulls from |grad psi| minima with saddle Hessian
+strike_point_count,4,,,limiter samples closest to psi_norm=1
+lower_strike_point_count,2,,,strike candidates below midplane
+upper_strike_point_count,2,,,strike candidates above midplane
+divertor_balance,0.0000000000e+00,,,(upper-lower)/(upper+lower) strike count proxy
+primary_x_point,0.4860211267605632,1.1773618421052634,0.24037553625666305,"minor_r_m,z_m,psi_wb"
+primary_strike_point,-0.5164402762338623,-0.3745316295474879,0.999980486797738,"minor_r_m,z_m,psi_norm"

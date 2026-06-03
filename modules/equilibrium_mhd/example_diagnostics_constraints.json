@@ -1,0 +1,35 @@
+{
+  "global": {
+    "b0_t": 3.05,
+    "plasma_current_ma": 0.78,
+    "q_edge": 3.85,
+    "beta_percent": 2.35
+  },
+  "flux_loops": [
+    {"name": "FL_out_mid", "r_m": 2.36, "z_m": 0.0, "psi_wb": 0.18, "sigma_wb": 0.08},
+    {"name": "FL_top", "r_m": 1.85, "z_m": 0.88, "psi_wb": 0.18, "sigma_wb": 0.08}
+  ],
+  "magnetic_probes": [
+    {"name": "BP_out", "r_m": 2.38, "z_m": 0.0, "component": "bz", "value_t": 0.02, "sigma_t": 0.08},
+    {"name": "BP_top", "r_m": 1.85, "z_m": 0.86, "component": "br", "value_t": -0.02, "sigma_t": 0.08}
+  ],
+  "q_points": [
+    {"name": "q95_proxy", "rho": 0.95, "q": 3.65, "sigma_q": 0.35}
+  ],
+  "pressure_points": [
+    {"name": "p_axis_proxy", "rho": 0.0, "pressure_pa": 86000.0, "sigma_pa": 12000.0},
+    {"name": "p_mid_proxy", "rho": 0.5, "pressure_pa": 45000.0, "sigma_pa": 9000.0}
+  ],
+  "mse_points": [
+    {"name": "MSE_mid_proxy", "rho": 0.55, "z_m": 0.0, "pitch_angle_deg": 4.0, "sigma_deg": 1.5}
+  ],
+  "rogowski_current": [
+    {"name": "rogowski_ip", "ip_ma": 0.78, "sigma_ma": 0.04}
+  ],
+  "diamagnetic_loop": [
+    {"name": "dia_beta", "beta_percent": 2.35, "sigma_percent": 0.25}
+  ],
+  "lcfs_points": [
+    {"name": "outer_midplane_lcfs", "r_m": 2.36, "z_m": 0.0, "psi_norm": 1.0, "sigma_psi_norm": 0.08}
+  ]
+}
